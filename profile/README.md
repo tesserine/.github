@@ -26,3 +26,10 @@ more.
 ## Status
 
 Pre-release. All components under active development toward v0.1.0.
+
+## The Name
+
+From *tessera* (mosaic tile — composition from modular pieces), *tesseract*
+(higher-dimensional structure), and Madeleine L'Engle's verb *to tesser*
+(folding through dimensions). The adjective form says this is about how
+you do things. What you do is wide open.
