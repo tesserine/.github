@@ -17,11 +17,13 @@ methodology that teaches agents how to work.
 
 ## Architecture
 
-agentd is to containerd as runa is to runc. The operator declares *what*
-— which agent, which methodology, which project. The ecosystem owns *how*
-— container isolation, pipeline enforcement, artifact validation. The
-agent gets an ephemeral workspace with exactly what it needs and nothing
-more.
+The operator declares *what* — which agent, which methodology, which
+project. The ecosystem owns *how* — container isolation, pipeline
+enforcement, artifact validation. Each layer is independently useful and
+independently replaceable: agentd manages the infrastructure, runa
+enforces the cognitive pipeline, and methodology plugins define how
+agents think and work. The agent gets an ephemeral workspace with exactly
+what it needs and nothing more.
 
 ## Status
 
