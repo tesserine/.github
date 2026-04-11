@@ -1,7 +1,7 @@
 # Tesserine
 
-Autonomous AI agent runtime ecosystem. Tesserine provides the
-infrastructure for running methodology-managed AI agents on your own
+Self-hosted platform for running autonomous AI agents. Tesserine provides
+the infrastructure for running methodology-managed agents on your own
 hardware — from container lifecycle to cognitive pipeline to the
 methodology that teaches agents how to work.
 
@@ -18,7 +18,7 @@ methodology that teaches agents how to work.
 ## Architecture
 
 The operator declares *what* — which agent, which methodology, which
-project. The ecosystem owns *how* — container isolation, pipeline
+project. The platform owns *how* — container isolation, pipeline
 enforcement, artifact validation. Each layer is independently useful and
 independently replaceable: agentd manages the infrastructure, runa
 enforces the cognitive pipeline, and methodology plugins define how
@@ -27,7 +27,7 @@ what it needs and nothing more.
 
 ## Status
 
-Pre-release. All components under active development toward v0.1.0.
+v0.1.0 released. All ecosystem components tagged and under active testing.
 
 ## The Name
 
