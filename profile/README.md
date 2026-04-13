@@ -17,6 +17,15 @@ what it needs and nothing more.
 
 ## Architecture
 
+Tesserine is a strongly typed cognitive state machine. Methodologies
+declare the topology — what artifacts exist, what protocols produce them,
+what conditions must hold before and after each transition. The runtime
+enforces fidelity: artifacts are validated against schemas, protocols
+fire only when their dependencies are satisfied, and the agent receives
+its work through typed interfaces that accept only well-formed output.
+The value comes from the guarantee that any declared cognitive process
+executes faithfully, regardless of its shape.
+
 The operator declares *what* — which agent, which methodology, which
 project. The runtime owns *how* — container isolation, pipeline
 enforcement, artifact validation. Each layer is independently useful and
